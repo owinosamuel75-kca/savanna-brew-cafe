@@ -1,7 +1,7 @@
-/* =================================
+/* =========================================
    SAVANNA BREW CAFE WEBSITE
-   Main External Stylesheet
-================================= */
+   Complete External CSS Stylesheet
+========================================= */
 
 /* 1. CSS Variables */
 :root {
@@ -19,6 +19,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -31,12 +35,20 @@ h1, h2, h3 {
     font-family: Georgia, serif;
 }
 
+h1, h2 {
+    color: var(--coffee-brown);
+}
+
 img {
     max-width: 100%;
     display: block;
 }
 
-/* 3. Header */
+section {
+    padding: 45px 6%;
+}
+
+/* 3. Website Header */
 header {
     background-color: var(--coffee-brown);
     color: var(--white);
@@ -64,7 +76,7 @@ header {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 15px;
     flex-wrap: wrap;
 }
 
@@ -83,7 +95,26 @@ nav a.active {
     color: var(--white);
 }
 
-/* 5. Home Hero Section */
+/* 5. Buttons */
+.btn {
+    display: inline-block;
+    background-color: var(--accent-orange);
+    color: var(--white);
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--coffee-brown);
+    transform: translateY(-2px);
+}
+
+/* 6. Home Page Hero */
 .hero {
     min-height: 430px;
     background:
@@ -103,6 +134,7 @@ nav a.active {
 }
 
 .hero h1 {
+    color: var(--white);
     font-size: 42px;
     margin-bottom: 20px;
 }
@@ -111,31 +143,12 @@ nav a.active {
     margin-bottom: 25px;
 }
 
-/* 6. Buttons */
-.btn {
-    display: inline-block;
-    background-color: var(--accent-orange);
-    color: var(--white);
-    padding: 12px 25px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: 0.3s ease;
-}
-
-.btn:hover,
-.btn:focus {
-    background-color: var(--coffee-brown);
-    transform: translateY(-2px);
-}
-
 /* 7. Featured Products */
 .featured {
-    padding: 55px 6%;
     text-align: center;
 }
 
 .featured h2 {
-    color: var(--coffee-brown);
     margin-bottom: 30px;
     font-size: 30px;
 }
@@ -174,15 +187,15 @@ nav a.active {
     margin-bottom: 8px;
 }
 
-/* 8. Reservation Section */
+/* 8. Home Reservation Section */
 .reservation {
     text-align: center;
     background-color: var(--coffee-brown);
     color: var(--white);
-    padding: 45px 20px;
 }
 
 .reservation h2 {
+    color: var(--white);
     margin-bottom: 12px;
 }
 
@@ -190,7 +203,282 @@ nav a.active {
     margin-bottom: 20px;
 }
 
-/* 9. Footer */
+/* 9. About Us Page */
+.about-section > h1,
+.values-section > h2,
+.gallery-section > h1,
+.menu-section > h1,
+.contact-section > h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.about-image,
+.about-text {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.about-text h2 {
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+}
+
+.values-section {
+    background-color: var(--white);
+    text-align: center;
+}
+
+.values-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.value-card {
+    background-color: var(--cream);
+    flex: 1 1 220px;
+    padding: 25px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.value-card:hover {
+    transform: translateY(-5px);
+}
+
+.value-card h3 {
+    color: var(--coffee-brown);
+    margin-bottom: 12px;
+}
+
+.about-quote {
+    text-align: center;
+}
+
+.about-quote blockquote {
+    max-width: 750px;
+    margin: auto;
+    padding: 20px;
+    border-left: 5px solid var(--accent-orange);
+    background-color: var(--white);
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* 10. Menu Page */
+.menu-section > p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu-category {
+    padding: 20px 0;
+}
+
+.menu-category h2 {
+    margin-bottom: 15px;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--white);
+}
+
+th, td {
+    padding: 13px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+thead {
+    background-color: var(--coffee-brown);
+    color: var(--white);
+}
+
+tbody tr:nth-child(even) {
+    background-color: #F1E4D5;
+}
+
+tbody tr:hover {
+    background-color: #E8D3BD;
+}
+
+.menu-category table td:last-child {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* 11. Gallery Page */
+.gallery-section > p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.gallery-grid figure {
+    background-color: var(--white);
+    border-radius: 9px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+}
+
+.gallery-grid figure:hover {
+    transform: scale(1.03);
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+.gallery-grid figcaption {
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+    color: var(--coffee-brown);
+}
+
+/* 12. Contact Page */
+.contact-section > p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    align-items: start;
+}
+
+.contact-details,
+.reservation-form {
+    background-color: var(--white);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.contact-details h2,
+.reservation-form h2 {
+    margin-bottom: 18px;
+}
+
+.contact-details p {
+    margin-bottom: 12px;
+}
+
+.contact-details table td:last-child {
+    text-align: right;
+}
+
+/* 13. Social Media */
+.social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 15px 0;
+}
+
+.social-media a {
+    color: var(--accent-orange);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-media a:hover,
+.social-media a:focus {
+    color: var(--coffee-brown);
+    text-decoration: underline;
+}
+
+/* 14. Reservation Form */
+fieldset {
+    border: 1px solid #D8C5B2;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+legend {
+    color: var(--coffee-brown);
+    font-weight: bold;
+    padding: 0 8px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group > label,
+.form-group > p {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+input:not([type="radio"]),
+select,
+textarea {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #B9A99A;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.form-group input[type="radio"] {
+    margin: 8px 5px 8px 0;
+}
+
+.form-group label:has(input[type="radio"]) {
+    display: inline-block;
+    margin-right: 12px;
+    font-weight: normal;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid var(--accent-orange);
+    border-color: var(--accent-orange);
+}
+
+/* 15. Website Footer */
 footer {
     background-color: var(--dark-text);
     color: var(--white);
@@ -208,7 +496,7 @@ footer a:focus {
     text-decoration: underline;
 }
 
-/* 10. Responsive Design */
+/* 16. Tablet Layout */
 @media screen and (max-width: 768px) {
 
     header {
@@ -230,12 +518,61 @@ footer a:focus {
         font-size: 30px;
     }
 
-    .featured-container {
+    .about-container {
+        flex-direction: column;
+    }
+
+    .about-image,
+    .about-text {
+        width: 100%;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+
+    .reservation-form {
+        order: 1;
+    }
+
+    .contact-details {
+        order: 2;
+    }
+}
+
+/* 17. Mobile Layout */
+@media screen and (max-width: 480px) {
+
+    nav ul {
         flex-direction: column;
         align-items: center;
     }
 
-    .featured-card {
-        width: 100%;
+    .logo a {
+        font-size: 22px;
+    }
+
+    .hero h1 {
+        font-size: 26px;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-grid img {
+        height: 230px;
+    }
+
+    th, td {
+        padding: 10px;
+    }
+
+    section {
+        padding: 30px 5%;
     }
 }
