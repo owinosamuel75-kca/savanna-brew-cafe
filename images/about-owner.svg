@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700">
+  <rect width="600" height="700" fill="#F5E9DA"/>
+  <circle cx="300" cy="245" r="115" fill="#D9822B"/>
+  <circle cx="300" cy="220" r="75" fill="#6F4E37"/>
+  <path d="M150 650c10-165 85-250 150-250s140 85 150 250" fill="#6F4E37"/>
+  <path d="M230 205c10-100 130-100 140 0" fill="#2B1B12"/>
+  <text x="300" y="675" text-anchor="middle" font-family="Georgia,serif" font-size="24" fill="#2B1B12">OUR FOUNDER</text>
+</svg>
