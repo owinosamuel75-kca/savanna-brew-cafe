@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#F5E9DA"/>
+  <circle cx="300" cy="210" r="155" fill="#D9822B"/>
+  <path d="M170 250h260l-25 65H195z" fill="#6F4E37"/>
+  <path d="M190 170h220v80H190z" fill="#6F4E37"/>
+  <ellipse cx="300" cy="170" rx="110" ry="27" fill="#2B1B12"/>
+  <path d="M250 165c-15-25 15-45 35-20 15-25 50-5 35 20-20 25-50 25-70 0z" fill="#F5E9DA"/>
+  <text x="300" y="375" text-anchor="middle" font-family="Georgia,serif" font-size="30" fill="#2B1B12">KENYAN COFFEE</text>
+</svg>
