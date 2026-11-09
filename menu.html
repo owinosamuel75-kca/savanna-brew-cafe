@@ -1,218 +1,117 @@
-<!DOCTYPE html>  
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore the hot drinks, cold beverages and freshly baked pastries at Savanna Brew Café.">
+    <meta name="description" content="Explore the hot drinks, cold drinks and bakery treats at Savanna Brew Café.">
     <title>Menu | Savanna Brew Café</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
-    <!-- Website Header -->
-    <header>
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="logo">Savanna Brew Café</a>
 
-        <div class="logo">
-            <a href="index.html">Savanna Brew Café</a>
-            <p>Brewed in Kenya. Served with love.</p>
+            <nav class="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="menu.html" class="active">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-
-        <!-- Main Navigation -->
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="menu.html" class="active">Menu</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-
     </header>
 
-    <!-- Main Content -->
     <main>
-
-        <section class="menu-section">
-
-            <h1>Our Menu</h1>
-
-            <p>
-                Discover our selection of freshly prepared Kenyan
-                coffee, refreshing cold drinks and delicious pastries.
-            </p>
-
-            <!-- Hot Beverages -->
-            <section class="menu-category">
-
-                <h2>Hot Beverages</h2>
-
-                <div class="table-container">
-                    <table>
-
-                        <thead>
-                            <tr>
-                                <th scope="col">Item</th>
-                                <th scope="col">Description</th>
-                                <th scope="col">Price (KSh)</th>
-                            </tr>
-                        </thead>
-
-                        <tbody>
-                            <tr>
-                                <td>Espresso</td>
-                                <td>Strong, freshly brewed coffee.</td>
-                                <td>200</td>
-                            </tr>
-
-                            <tr>
-                                <td>Cappuccino</td>
-                                <td>Espresso topped with steamed milk foam.</td>
-                                <td>300</td>
-                            </tr>
-
-                            <tr>
-                                <td>Caffe Latte</td>
-                                <td>Espresso blended with smooth steamed milk.</td>
-                                <td>320</td>
-                            </tr>
-
-                            <tr>
-                                <td>Kenyan Chai</td>
-                                <td>Traditional Kenyan tea with milk and spices.</td>
-                                <td>250</td>
-                            </tr>
-
-                            <tr>
-                                <td>Hot Chocolate</td>
-                                <td>Rich chocolate drink served warm.</td>
-                                <td>350</td>
-                            </tr>
-                        </tbody>
-
-                    </table>
-                </div>
-
-            </section>
-
-            <!-- Cold Beverages -->
-            <section class="menu-category">
-
-                <h2>Cold Beverages</h2>
-
-                <div class="table-container">
-                    <table>
-
-                        <thead>
-                            <tr>
-                                <th scope="col">Item</th>
-                                <th scope="col">Description</th>
-                                <th scope="col">Price (KSh)</th>
-                            </tr>
-                        </thead>
-
-                        <tbody>
-                            <tr>
-                                <td>Iced Latte</td>
-                                <td>Chilled espresso with cold milk.</td>
-                                <td>350</td>
-                            </tr>
-
-                            <tr>
-                                <td>Cold Brew</td>
-                                <td>Slow-steeped coffee served chilled.</td>
-                                <td>380</td>
-                            </tr>
-
-                            <tr>
-                                <td>Passion Fruit Cooler</td>
-                                <td>Refreshing passion fruit drink.</td>
-                                <td>300</td>
-                            </tr>
-                        </tbody>
-
-                    </table>
-                </div>
-
-            </section>
-
-            <!-- Bakery -->
-            <section class="menu-category">
-
-                <h2>Bakery</h2>
-
-                <div class="table-container">
-                    <table>
-
-                        <thead>
-                            <tr>
-                                <th scope="col">Item</th>
-                                <th scope="col">Description</th>
-                                <th scope="col">Price (KSh)</th>
-                            </tr>
-                        </thead>
-
-                        <tbody>
-                            <tr>
-                                <td>Butter Croissant</td>
-                                <td>Freshly baked, golden and flaky pastry.</td>
-                                <td>250</td>
-                            </tr>
-
-                            <tr>
-                                <td>Banana Bread</td>
-                                <td>Moist homemade banana-flavoured bread.</td>
-                                <td>280</td>
-                            </tr>
-
-                            <tr>
-                                <td>Samosa (2 pieces)</td>
-                                <td>Two freshly prepared savoury pastries.</td>
-                                <td>200</td>
-                            </tr>
-
-                            <tr>
-                                <td>Chocolate Brownie</td>
-                                <td>Rich chocolate dessert with a soft centre.</td>
-                                <td>300</td>
-                            </tr>
-                        </tbody>
-
-                    </table>
-                </div>
-
-            </section>
-
+        <section class="page-banner">
+            <div class="container">
+                <h1>Our Menu</h1>
+                <p>Fresh flavours, quality ingredients and Kenyan hospitality.</p>
+            </div>
         </section>
 
+        <section class="menu-section container">
+            <h2>Hot Drinks</h2>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Item</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Price (KSh)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Espresso</td><td>Strong, rich and freshly brewed coffee.</td><td>200</td></tr>
+                        <tr><td>Cappuccino</td><td>Espresso topped with steamed milk and foam.</td><td>300</td></tr>
+                        <tr><td>Caffe Latte</td><td>Smooth espresso blended with steamed milk.</td><td>320</td></tr>
+                        <tr><td>Kenyan Chai</td><td>Traditional Kenyan tea brewed with milk and spices.</td><td>250</td></tr>
+                        <tr><td>Hot Chocolate</td><td>Rich chocolate drink served warm.</td><td>350</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h2>Cold Drinks</h2>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Item</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Price (KSh)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Iced Latte</td><td>Espresso and milk served over ice.</td><td>350</td></tr>
+                        <tr><td>Cold Brew</td><td>Slow-steeped coffee served chilled.</td><td>380</td></tr>
+                        <tr><td>Passion Fruit Cooler</td><td>Refreshing passion fruit drink.</td><td>300</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h2>Bakery</h2>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Item</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Price (KSh)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Butter Croissant</td><td>Flaky, buttery freshly baked pastry.</td><td>250</td></tr>
+                        <tr><td>Banana Bread</td><td>Moist homemade-style banana loaf.</td><td>280</td></tr>
+                        <tr><td>Samosa (2 pieces)</td><td>Crispy pastry filled with savoury filling.</td><td>200</td></tr>
+                        <tr><td>Chocolate Brownie</td><td>Rich chocolate treat with a soft centre.</td><td>300</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="visit-section">
+            <div class="container">
+                <h2>Something for Everyone</h2>
+                <p>Visit us and enjoy your favourite drink with a freshly baked treat.</p>
+                <a href="contact.html" class="btn">Visit Our Café</a>
+            </div>
+        </section>
     </main>
 
-    <!-- Website Footer -->
-    <footer>
-
-        <p>14 Coffee Lane, Westlands, Nairobi</p>
-        <p>Phone: +254 700 123 456</p>
-        <p>Opening Hours: Monday–Friday, 7:00 AM–9:00 PM</p>
-
-        <div class="social-media">
-
-            <p>Follow Us on Social Media</p>
-
-            <a href="https://www.instagram.com/savannabrew/"
-               target="_blank" rel="noopener noreferrer">
-                Instagram: @savannabrew
-            </a>
-
-            <a href="https://www.facebook.com/savannabrewcafe/"
-               target="_blank" rel="noopener noreferrer">
-                Facebook: /savannabrewcafe
-            </a>
-
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Savanna Brew Café. All rights reserved.</p>
+            <p>Brewed in Kenya. Served with love.</p>
+            <p>
+                Follow us:
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                |
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
+            </p>
         </div>
-
-        <p>&copy; 2026 Savanna Brew Café. All rights reserved.</p>
-
     </footer>
 
 </body>
