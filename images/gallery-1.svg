@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#6F4E37"/>
+  <rect x="55" y="55" width="490" height="340" rx="18" fill="#F5E9DA"/>
+  <rect x="90" y="90" width="420" height="210" rx="12" fill="#D9822B"/>
+  <circle cx="300" cy="195" r="75" fill="#6F4E37"/>
+  <path d="M245 195c15-45 95-45 110 0-15 45-95 45-110 0z" fill="#F5E9DA"/>
+  <text x="300" y="350" text-anchor="middle" font-family="Georgia,serif" font-size="28" fill="#2B1B12">A TASTE OF KENYA</text>
+</svg>
