@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#6F4E37"/>
+  <rect x="55" y="45" width="490" height="360" rx="22" fill="#F5E9DA"/>
+  <path d="M155 285h290l-25 55H180z" fill="#D9822B"/>
+  <path d="M190 185h220v100H190z" rx="15" fill="#6F4E37"/>
+  <path d="M410 205h35c55 0 55 75 0 75h-35" fill="none" stroke="#6F4E37" stroke-width="18"/>
+  <ellipse cx="300" cy="185" rx="110" ry="28" fill="#2B1B12"/>
+  <path d="M265 180c-20-30 20-50 35-20 15-30 55-10 35 20-20 25-50 25-70 0z" fill="#F5E9DA"/>
+  <text x="300" y="375" text-anchor="middle" font-family="Georgia,serif" font-size="28" fill="#2B1B12">A PERFECT CUP</text>
+</svg>
