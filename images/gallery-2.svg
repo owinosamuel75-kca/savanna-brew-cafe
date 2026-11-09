@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#F5E9DA"/>
+  <rect x="55" y="55" width="490" height="340" rx="18" fill="#6F4E37"/>
+  <path d="M130 300V170h340v130z" fill="#D9822B"/>
+  <circle cx="300" cy="220" r="85" fill="#2B1B12"/>
+  <path d="M245 220c20-55 90-55 110 0-20 55-90 55-110 0z" fill="#F5E9DA"/>
+  <path d="M270 220c15-25 45-25 60 0" fill="none" stroke="#D9822B" stroke-width="12"/>
+  <text x="300" y="355" text-anchor="middle" font-family="Georgia,serif" font-size="28" fill="#FFFFFF">FRESHLY BREWED</text>
+</svg>
