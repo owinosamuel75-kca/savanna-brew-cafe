@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#F5E9DA"/>
+  <rect x="65" y="45" width="470" height="360" rx="24" fill="#6F4E37"/>
+  <circle cx="300" cy="195" r="115" fill="#D9822B"/>
+  <path d="M205 185h190v100H205z" fill="#F5E9DA"/>
+  <ellipse cx="300" cy="185" rx="95" ry="25" fill="#2B1B12"/>
+  <path d="M265 180c-20-30 15-45 35-18 18-27 50-8 32 18-18 24-48 24-67 0z" fill="#F5E9DA"/>
+  <path d="M395 210h25c40 0 40 60 0 60h-25" fill="none" stroke="#F5E9DA" stroke-width="14"/>
+  <text x="300" y="355" text-anchor="middle" font-family="Georgia,serif" font-size="30" fill="#F5E9DA">SAVANNA BREW</text>
+</svg>
