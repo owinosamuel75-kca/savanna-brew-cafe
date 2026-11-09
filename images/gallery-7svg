@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#6F4E37"/>
+  <rect x="55" y="45" width="490" height="360" rx="22" fill="#F5E9DA"/>
+  <path d="M150 285h300l-25 45H175z" fill="#D9822B"/>
+  <path d="M190 180h220v105H190z" fill="#6F4E37"/>
+  <ellipse cx="300" cy="180" rx="110" ry="28" fill="#2B1B12"/>
+  <path d="M250 175c-15-25 15-45 35-20 15-25 50-5 35 20-20 25-50 25-70 0z" fill="#F5E9DA"/>
+  <circle cx="145" cy="120" r="18" fill="#D9822B"/>
+  <circle cx="455" cy="120" r="18" fill="#D9822B"/>
+  <text x="300" y="375" text-anchor="middle" font-family="Georgia,serif" font-size="30" fill="#2B1B12">CAFE EXPERIENCE</text>
+</svg>
